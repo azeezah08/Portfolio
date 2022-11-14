@@ -1,0 +1,83 @@
+main{
+    width: 1300px;
+    /* border:2px solid #ff6464; */
+    height: auto;
+    /* margin: auto; */
+    box-sizing: border-box;
+    padding: 30px;
+}
+.ul-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 900px;
+    padding-bottom: 50px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li >a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    height: auto;
+  }
+
+  .icon{
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 30px;
+ }
+ .fa{
+     margin-left: 10px;
+ }
+ .copy{
+     margin-left: 10px;
+ }

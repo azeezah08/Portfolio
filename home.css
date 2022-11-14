@@ -1,0 +1,176 @@
+main{
+    width: 1300px;
+    /* border:2px solid #ff6464; */
+    height: auto;
+    /* margin: auto; */
+    box-sizing: border-box;
+    padding: 30px;
+}
+.ul-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 900px;
+    padding-bottom: 50px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li >a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.btn{
+    background-color: #ff6464;
+    width: 150px;
+    color: #fff;
+     text-align: center;
+    font-size:  19px;
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+    
+    /* border: 2px solid red; */
+
+}
+.image>img{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 150px;
+}
+.image{
+    width: 50%;
+    
+}
+.h{
+    width: 40%;
+}
+h1{
+    font-size: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 155px;
+}
+.wrapper1{
+    border: 2px solid #ceedf6;
+    background-color: #ceedf6; 
+    width: 100%;
+    margin-top: 50px;
+   padding-bottom: 30px;
+    
+    
+}
+.link>a{
+    color: blue;
+    
+}
+.link{
+    padding-top: 25px;
+}
+.boxx{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    margin-left: 110px;
+    border: 2px white solid;
+    background-color: white;
+    width: 35%;
+
+}
+.box2{
+    margin-right: 110px;
+    border: 2px white solid;
+    background-color: white;
+    width: 35%;
+}
+.dashboard{
+    display: flex;
+    margin-left: 150px;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-bottom: 50px; */
+}
+.button{
+    background-color: #142850;
+    width: 40px;
+    border-radius: 30px;
+    padding-left: 5px;
+    color: #fff;
+}
+.name{
+    display: flex;
+    
+}
+span{
+    margin-left: 30px;
+}
+.design{
+    margin-left: 30px;
+    width: 50%;
+}
+h5{
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.illustration{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.typography{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.components{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.malayalam{
+        margin-left: 30px;
+        width: 50%;
+}
+.portraits{
+    margin-left: 30px;
+    width: 50%;
+}
+.comp{
+    margin-left: 30px;
+    width: 50%;
+}
+.works{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    
+}
+.icon{
+   margin-left: 500px;
+   margin-top: 100px;
+   font-size: 30px;
+}
+.fa{
+    margin-left: 10px;
+}
+.copy{
+    margin-left: 500px;
+}
